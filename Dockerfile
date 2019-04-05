@@ -3,7 +3,7 @@ FROM openjdk:8-alpine
 # Configuration variables.
 ENV CROWD_HOME     /var/atlassian/crowd
 ENV CROWD_INSTALL  /opt/atlassian/crowd
-ENV CROWD_VERSION  3.3.2
+ENV CROWD_VERSION  3.4.3
 ENV POSTGRES_JDBC_VERSION 42.2.5
 ENV MYSQL_JDBC_VERSION 8.0.13
 
